@@ -1,6 +1,4 @@
-from pylab import plot, show, title, xlabel, ylabel, subplot, savefig
-from scipy import fft, arange, ifft
-from numpy import sin, linspace, pi
+from pylab import plot, show, title, xlabel, ylabel, subplot, savefig, fft, arange, ifft, sin, linspace, pi
 from scipy.io.wavfile import read,write
 
 def plotSpectru(y,Fs):
