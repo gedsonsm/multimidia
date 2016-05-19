@@ -110,7 +110,7 @@ top    = 71
 if nota < notasRef[bottom]:
     print "Ops, nao foi boa nota (fora dos limites de uma flauta soprano:" + str("%.2f" % nota) + "Hz)"
     print "Nota mais proxima: " + notasLista[bottom] + " com range " + str(notasRef[bottom]) + "Hz ~ " + str(notasRef[bottom+1]) + "Hz"
-elif nota > notasRef[top-1]:
+elif nota > notasRef[top]:
     print "Ops, nao foi boa nota (fora dos limites de uma flauta soprano:" + str("%.2f" % nota) + "Hz)"
     print "Nota mais proxima: " + notasLista[top-1] + " com range " + str(notasRef[top-1]) + "Hz ~ " + str(notasRef[top]) + "Hz"
 else:
